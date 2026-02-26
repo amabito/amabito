@@ -2,7 +2,7 @@
 
 Building **VERONICA** — a runtime safety layer that sits between autonomous agents and your API bill.
 
-One unguarded loop on a Friday can mean $12K by Monday.  
+One unguarded loop on a Friday can mean $12K by Monday.
 VERONICA enforces hard limits before damage happens.
 
 → https://github.com/amabito/veronica-core
@@ -12,19 +12,19 @@ VERONICA enforces hard limits before damage happens.
 
 ## What I build
 
-**VERONICA (LLM Runtime Enforcement)**
+**[veronica-core](https://github.com/amabito/veronica-core) — LLM Runtime Enforcement**
 - Hard budget limits (HALT, not alert)
 - Step limits & loop control
-- Concurrency gating
+- Circuit breaker with AG2 integration (v1.0.1)
 - Crash-resilient state transitions
-- Designed for engineers, not dashboards
+- `pip install veronica-core`
 
-**HyperRasterizer (3D Gaussian Splatting)**
+**[HyperRasterizer](https://github.com/amabito/hyper-rasterizer) — 3D Gaussian Splatting**
 - Custom CUDA rasterizer (Apache 2.0)
 - RTX 5090 / Blackwell optimized
 - Solves commercial licensing constraints in 3DGS
 
-**HyperViewer**
+**[HyperViewer](https://github.com/amabito/hyper-viewer)**
 - WebGPU-based 3DGS viewer
 - Browser-native, no plugin
 
@@ -53,17 +53,17 @@ Focus Areas:
 
 ## Writing
 
-- Zenn (65 articles) — 3DGS / CUDA / WebGPU
-- Qiita (6 articles) — engineering notes
+- [Zenn](https://zenn.dev/amabito) (65 articles) — 3DGS / CUDA / WebGPU
+- [Qiita](https://qiita.com/amabito) (6 articles) — engineering notes
 
 
 ---
 
 ## Background
 
-Construction consultant × GPU engineer.
+Construction consultant x GPU engineer.
 
-Working at the intersection of infrastructure DX and high-performance graphics systems,  
+Working at the intersection of infrastructure DX and high-performance graphics systems,
 now building runtime enforcement for AI agents.
 
 
