@@ -43,7 +43,7 @@ Languages:
 - TypeScript, C#
 
 Focus Areas:
-- Runtime safety for AI systems
+- Runtime enforcement for LLM agent frameworks (AG2 integration)
 - 3D Gaussian Splatting
 - Custom rasterization pipelines
 - Real-time rendering optimization
