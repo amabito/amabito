@@ -8,7 +8,7 @@ I build the safety layer between autonomous agents and production disasters. Not
 - Hard budget enforcement (HALT, not alert)
 - Step limits, loop control, circuit breakers
 - Crash-resilient state machine (1,780 tests)
-- AG2 framework integration — [invited by core maintainer](https://github.com/ag2ai/ag2/pull/2430)
+- AG2 integration in progress — PR invited by core maintainer
 - `pip install veronica-core`
 
 ## Background
