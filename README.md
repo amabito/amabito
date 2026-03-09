@@ -7,25 +7,19 @@ Your agent retries 3 times per layer. Three layers deep, that's 64 API calls fro
 
 ## What I build
 
-**[veronica-core](https://github.com/amabito/veronica-core)** -- Runtime containment for LLM agents
+**[veronica-core](https://github.com/amabito/veronica-core)** v3.4.2 -- Runtime containment for LLM agents
 - Hard budget, step limits, retry caps, circuit breakers -- evaluated before the call reaches the model
 - Semantic loop detection, MCP containment, declarative YAML policies
 - AG2 integration merged ([PR #2430](https://github.com/ag2ai/ag2/pull/2430)), LangChain / CrewAI / LangGraph adapters
 - 4844 tests, 94% coverage, zero required dependencies
 - `pip install veronica-core`
 
-**[HyperRasterizer](https://github.com/amabito/hyper-rasterizer)** -- CUDA 3D Gaussian Splatting rasterizer
-- 4169 FPS, MIT license, commercial OK
-- Built from scratch on RTX 5090 (sm_120) / CUDA 12.8
-
-**[HyperViewer](https://github.com/nicetomytyuk/hyper-viewer)** -- WebGPU 3DGS viewer
-
 ---
 
 ## Background
 
 Construction consultant, 15 years. Regulated environments where failure has real cost.
-Building CUDA rasterizers and LLM containment tools on the side.
+Now applying that mindset to LLM agent safety.
 
 ---
 
