@@ -7,7 +7,7 @@ Your agent retries 3 times per layer. Three layers deep, that's 64 API calls fro
 
 ## What I build
 
-**[veronica-core](https://github.com/amabito/veronica-core)** v3.6.1 -- Runtime containment for LLM agents
+**[VERONICA-core](https://github.com/amabito/veronica-core)** v3.6.1 -- Runtime containment for LLM agents
 - Hard budget, step limits, retry caps, circuit breakers -- evaluated before the call reaches the model
 - Semantic loop detection, MCP containment, declarative YAML policies
 - AG2 integration merged ([PR #2430](https://github.com/ag2ai/ag2/pull/2430)), LangChain / CrewAI / LangGraph adapters
