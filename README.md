@@ -12,7 +12,7 @@ Building the stack: [TriMemory](https://github.com/amabito/tri-memory) resolves 
 - 1,000 concurrent agent states in 16 MB
 - 277 tests, Apache 2.0
 
-**[VERONICA Core](https://github.com/amabito/veronica-core)** v3.7.5 -- Runtime containment for LLM agents
+**[VERONICA Core](https://github.com/amabito/veronica-core)** v3.7.6 -- Runtime containment for LLM agents
 - Hard budget, step limits, retry caps, circuit breakers -- evaluated before the call reaches the model
 - Memory governance, message hooks, DEGRADE directives, semantic loop detection
 - AG2 integration merged ([PR #2430](https://github.com/ag2ai/ag2/pull/2430)), LangChain / CrewAI / LangGraph / LlamaIndex adapters
