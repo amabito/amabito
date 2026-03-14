@@ -1,11 +1,16 @@
-### Stops LLM agents from burning money
+### Governed knowledge execution for LLM agents
 
-Building [veronica-core](https://github.com/amabito/veronica-core) -- runtime cost and execution containment for LLM agent systems.
-Your agent retries 3 times per layer. Three layers deep, that's 64 API calls from one user click. veronica-core caps it.
+Building the stack: [TriMemory](https://github.com/amabito/tri-memory) resolves what the agent knows, [veronica-core](https://github.com/amabito/veronica-core) enforces that the inference stays within budget.
 
 ---
 
 ## What I build
+
+**[TriMemory](https://github.com/amabito/tri-memory)** -- Memory architecture for LLM agents
+- Three-path memory: KV window + retrieval index + TRN recurrent state
+- 8 KB per agent at any context length (vs 156 MB KV cache at 10K tokens)
+- 1,000 concurrent agent states in 16 MB
+- 277 tests, Apache 2.0
 
 **[VERONICA Core](https://github.com/amabito/veronica-core)** v3.7.5 -- Runtime containment for LLM agents
 - Hard budget, step limits, retry caps, circuit breakers -- evaluated before the call reaches the model
