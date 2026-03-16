@@ -15,7 +15,7 @@ Building the stack: [TriMemory](https://github.com/amabito/tri-memory) resolves 
 **[VERONICA Core](https://github.com/amabito/veronica-core)** v3.7.6 -- Runtime containment for LLM agents
 - Hard budget, step limits, retry caps, circuit breakers -- evaluated before the call reaches the model
 - Memory governance, message hooks, DEGRADE directives, semantic loop detection
-- AG2 integration merged ([PR #2430](https://github.com/ag2ai/ag2/pull/2430)), LangChain / CrewAI / LangGraph / LlamaIndex adapters
+- Contributor to [AG2 v0.11.3](https://github.com/ag2ai/ag2/releases/tag/v0.11.3) ([PR #2430](https://github.com/ag2ai/ag2/pull/2430)), LangChain / CrewAI / LangGraph / LlamaIndex adapters
 - 6125 tests, 94% coverage, zero required dependencies
 - `pip install veronica-core`
 
